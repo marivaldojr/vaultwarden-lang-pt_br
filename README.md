@@ -9,4 +9,6 @@ Tags: Existe uma tag correspondente para cada versão do Vaultwarden (ex: 1.32.0
 
 Como usar: Certifique-se de baixar os arquivos da tag que condiz com a versão que você está executando.
 
-⚠️ Versão atual (branch principal): Testado para v1.35.4
+⚠️ Versão atual (branch principal): alinhada à v1.37.4
+
+Na v1.37.x o modelo `admin_reset_password` foi substituído por `admin_account_recovery`. Ele avisa quando um administrador altera a senha mestra, redefine o login em duas etapas, ou as duas coisas. Também entrou o modelo `recover_twofactor`, enviado quando o código de recuperação desativa o login em duas etapas. Quem ainda usa a v1.35.4 deve permanecer na tag `1.35.4`.
