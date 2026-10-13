@@ -1,0 +1,12 @@
+Recuperação de conta pelo administrador da organização {{org_name}}
+<!---------------->
+{{#if reset_password}}
+A senha mestra de {{user_name}} foi alterada.
+{{/if}}
+{{#if reset_2fa}}
+Os métodos de login em duas etapas foram redefinidos.{{#if fallback_2fa_email}} O login em duas etapas por e-mail foi ativado como alternativa.{{/if}}
+{{/if}}
+
+Se você não iniciou esta solicitação, entre em contato com o administrador imediatamente.
+
+{{> email/email_footer_text }}
